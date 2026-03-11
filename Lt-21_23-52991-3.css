@@ -1,0 +1,62 @@
+
+h1, h2 {
+    color: seagreen;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 30px;     
+    margin-bottom: 1cm;   
+}
+
+img {
+    width: 300px;         
+    height: 5cm;          
+}
+
+body {
+    font-size: 16px;
+}
+
+.language-list {
+    width: 60%;          
+    font-size: 1.2em;    
+}
+
+section {
+    padding: 2rem;       
+    height: 30vh;        
+}
+
+
+.form-section p {
+    color: gray;
+    font-size: 1.1rem;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid gray;
+}
+
+
+a:hover {
+    color:maroon;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+button:active {
+    background-color: blueviolet;
+    color: white;
+}
+
+input[type="text"]:focus {
+    border-color: aquamarine;
+    outline: none;
+}
